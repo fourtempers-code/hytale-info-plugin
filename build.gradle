@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.example'
+version = '1.2.0'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly files('libs/hytale-server.jar')
+}
+
+jar {
+    archiveBaseName.set('info')
+    archiveVersion.set('')
+
+    from('mod.json') {
+        into ''
+    }
+
+    from('config') {
+        into 'config'
+    }
+}
