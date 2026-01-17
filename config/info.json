@@ -1,0 +1,16 @@
+{
+  "default": "rules",
+  "showRulesOnJoin": true,
+  "joinDelaySeconds": 5,
+  "sections": {
+    "rules": [
+      "&aWelcome, &f{player}&a!",
+      "&7Please review the rules:",
+      "",
+      "&cRules:",
+      "&7- Be respectful",
+      "&7- No cheating",
+      "&7- Have fun"
+    ]
+  }
+}
