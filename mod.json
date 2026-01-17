@@ -1,0 +1,6 @@
+{
+  "id": "info",
+  "name": "Info",
+  "version": "1.2.0",
+  "entrypoint": "com.example.info.InfoMod"
+}
